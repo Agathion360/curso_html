@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fuentes */
+
+/* Quicksand 300 400
+Montserrat 100 I 200 400
+Bitter 100 I 400 600  */
+
+/* fuentes */
+
+body{
+    background-color: #eaeadc;
+}
+/* Barra de Navegacion */
+header {
+    background-color: #f8f9fa;
+    
+
+}
+header nav{
+    height: 100px;
+    
+}
+
+header nav div img{
+    width: 70px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+header nav ul{
+    position:absolute;
+    right: 50px;
+    top:20px;
+}
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top:19px; 
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-family: Quicksand;
+    color: #606d47;
+    font-size: 18px;
+    
+    
+}
+/*Fin  Barra de Navegacion */
+
+
+/* primera seccion */
+.seccionUno{
+    margin-bottom: 60px;
+}
+.seccionUno .texto{
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+    width: 500px;
+}
+.seccionUno .texto h3{
+    color: black;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+}
+.seccionUno .texto h2{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 100;
+    width: 500px;
+    color: #606d47;
+    margin-top: 20px;
+}
+.seccionUno .texto p{
+    width: 500px;
+    font-family: Bitter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 45px;
+    margin-top: 18px;
+}
+.seccionUno .imagenLateral img{
+    position: absolute;
+    display: inline-block;
+    left:600px;
+    top:700px;
+}
+/* Fin primera seccion */
+
+/* Seccion productos */
+.productos{
+    background-color: #e5e5dc;
+    position: relative;
+    height: 600px;
+}
+.productos h2{
+    padding-top: 15px;
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 25px;
+
+}
+.productos div{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    margin: 20px 10px 0 20px;
+}
+.productos div img{
+    height: 301px;
+}
+.productos div h3{
+    font-family: Bitter;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.productos div p{
+    font-family: Montserrat;
+}
+
+/* Fin Seccion productos */
+
+/* FOOTERS */
+
+footer{
+    margin-top: 30px;
+    background-color: #BDBFC1;
+    height: 450px;
+    position: relative;
+    bottom: 0px;
+}
+footer .footerCont{
+    position: relative;
+    
+}
+
+footer .footerCont .mapa{
+  
+    display: inline-block;
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+footer .footerCont .datos{
+    background-color: #92948F;
+    width: 400px;
+    height: 450px;
+    display: inline-block;
+    position: absolute; 
+    margin-left: 30px;
+    
+}
+footer .footerCont .datos img{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+footer .footerCont .datos p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer .footerCont .datos ul{
+    list-style: none;
+    position: relative;
+    margin-top: 30px;
+    
+}
+
+footer .footerCont .datos ul li{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 50px;
+    
+    
+}
+footer .footerCont .datos ul li a{
+    color: #eaeadc;
+}
+
+
+
+.footerAngosto{
+    background-color: #92948F;
+    height: 80px;
+}
+.footerAngosto .redes{
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    margin-top: 25px;
+    
+    
+}
+.footerAngosto .redes ul{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    
+}
+.footerAngosto .redes ul li{
+    display: inline-block;
+    
+   
+}
+
+.footerAngosto .redes ul li a{
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+
+
+.footerAngosto p{
+    width: 600px;
+    color:white;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top:25px;
+}
+/* FIN FOOTERS */
+
+/* productos listado */
+.listado{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.listado div{
+    background-color:rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    width: 300px;
+    height: 480px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.listado div a{
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+    background-color: rgb(21, 80, 21);
+    padding: 12px;
+    border-radius: 20px;
+    font-family: Quicksand;
+}
+
+.listado div h3{
+font-family: Bitter;
+margin-left: 20px;
+}
+
+.listado div p{
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    margin-left: 20px;
+}
+
+
+
+section .barraSup{
+    background-color: #92948F;
+    margin-top: 80px;
+    width: 1100px;
+    margin-left: 110px;
+    height: 40px;
+}
+
+section .barraSup ul{
+list-style: none;
+position: relative;
+
+}
+section .barraSup ul li{
+color: #f8f9fa;
+display: inline-block;
+margin-top: 12px;
+font-size: 15px;
+font-family:Quicksand ;
+}
+section .barraSup ul li:nth-child(1){
+    
+    margin-left:30px
+}
+section .barraSup ul li:nth-child(2){
+margin-left: 230px;
+}
+section .barraSup ul li:nth-child(3){
+    margin-left: 140px;
+    }
+section .barraSup ul li:nth-child(4){
+    margin-left: 100px;
+ }
+ section .barraSup ul li:nth-child(5){
+    margin-left: 90px;
+ }
+
+ .elementosCarro{
+    margin-bottom: 70px;
+ }
+ .elementosCarro div{
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.205);
+    display: inline-block;
+    margin-left: 110px;
+    width: 1100px;
+    padding-bottom: 20px;
+    height: 122px;
+    
+
+ }
+ .elementosCarro div img{
+    height: 120px;
+ }
+ .elementosCarro div p{
+    position: relative;
+    display: inline-block;
+    font-family:Montserrat;
+    
+    
+ }
+
+ .elementosCarro div p:nth-child(2){
+    color: black;
+    margin-left: 170px;
+    width: 170px;
+   
+ }
+
+ .elementosCarro div p:nth-child(3){
+    margin-left: 120px;
+    font-size: 30px;
+ }
+
+ .elementosCarro div p:nth-child(4){
+    margin-left: 120px;
+    font-size: 30px;
+ }
+ .elementosCarro div p:nth-child(5){
+    margin-left: 90px;
+    font-size: 30px;
+ }
+
+ .elementosCarro div a{
+    margin-left: 90px;
+    font-size: 25px;
+    color: #606d47;
+ }
+
+ .total div{
+    position: relative;
+    width: 200px;
+    margin-left: 870px;
+ }
+
+ .total div p{
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 30px;
+ }
+ .total div p span{
+    font-weight: 600;
+ }
+ .total div a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-family:Quicksand;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #606d47;
+    margin-top: 20px;
+    padding: 20px;
+
+
+ }
+
+
+/* Inicio sesion */
+ .datosUser{
+    background-color: rgba(255, 255, 255, 0.205);
+    width: 1200px;
+    position: relative;
+    height: 380px;
+    margin: 80px 0 120px 90px;
+ }
+ .datosUser h2{
+font-family: Bitter;
+font-size: 30px;
+position: relative;
+display: inline-block;
+margin: 30px 0 20px 500px;
+
+
+ }
+
+ .datosUser div p{
+    position: relative;
+    display: inline-block;
+    margin-left: 350px;
+    font-size: 25px;
+    font-family: Quicksand;
+    margin-bottom: 50px;
+ }
+ .datosUser div .campouno{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+    color: #BDBFC1;
+    position: relative;
+    display: inline-block;
+    margin-left: 65px;
+ }
+
+ .datosUser div .campo{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+    color: #BDBFC1;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+ }
+ .datosUser .inicioBoton{
+    position: relative;
+    display: inline-block;
+    background-color: #606d47;
+    color: white;
+    text-decoration: none;
+    font-family:Montserrat ;
+    font-size: 20px;
+    margin-left: 510px;
+    padding: 15px 80px 15px 80px;
+ }
+ .datosUser .altaUser{
+    position: relative;
+    display: inline-block;
+    color: #606d47;
+    text-decoration: none;
+    font-family:Montserrat ;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 580px;
+ }
+/* Fin Inicio sesion */
+
+ 
+
+
+ /* Alta Usuarios */
+ .nuevoUser{
+    background-color: rgba(255, 255, 255, 0.205);
+    width: 1200px;
+    position: relative;
+    height: 450px;
+    margin: 80px 0 30px 90px;
+
+ }
+
+ .nuevoUser div{
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    margin-left: 300px;
+ }
+ .nuevoUser h2{
+    font-family: Bitter;
+    font-size: 30px;
+    margin: 30px 0 20px 600px;
+
+ }
+
+ .nuevoUser div p{
+    font-size: 15px;
+    font-family: Quicksand;
+    position: relative;
+    display: inline-block;
+  }
+
+  .nuevoUser div .campo{
+    background-color: #e5e5dc;
+    width:350px ;
+    margin-left: 200px;
+    padding: 10px;
+    position: relative;
+    top:-20px; left: 40px;
+  }
+  .nuevoUser .inicioBoton{
+    position: relative;
+    display: inline-block;
+    background-color: #606d47;
+    color: white;
+    text-decoration: none;
+    font-family:Montserrat ;
+    font-size: 20px;
+    margin-left: 510px;
+    padding: 15px 80px 15px 80px;
+ }
+  
+  
+ /*FIN Alta Usuarios */
+ .relato_nosotros{
+    background-color:rgba(255, 255, 255, 0.2);
+    height: 480px;
+ }
+ .relato_nosotros h3{
+    font-family: Montserrat;
+    font-size: 22px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 330px;
+    margin-top: 20px;
+ }
+ .relato_nosotros p{
+    font-family:Bitter ;
+    font-size: 21px;
+    width: 500px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 70px;
+ }
+
+ .relato_nosotros img{
+    height: 400px;
+    width: 270px;
+    position: relative;
+    display: inline-block;
+    margin-left: 770px;
+    margin-top: 40px;    
+ }
+
+ .fotos div img{
+    width:248px ;
+    height:186px ;
+    padding: 20px;
+ }
+
+ .fotos div{
+    margin-left: 90px;
+    width: 1180px;
+ }
+ .fotos h3{
+    margin-left: 590px;
+    margin-top: 20px;
+    font-family: Montserrat;
+ }
+
+
